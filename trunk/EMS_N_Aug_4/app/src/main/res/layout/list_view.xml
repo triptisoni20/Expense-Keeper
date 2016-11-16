@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="#ef4f91"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:id="@+id/layout_colour">
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/date"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold|italic"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/month"
+                android:textStyle="bold|italic"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:textStyle="bold"
+                android:id="@+id/category"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/amount"
+                android:textStyle="bold"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/status"
+                android:textStyle="bold"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_row="0"
+            android:layout_column="3">
+            <ImageButton
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/edit"
+                android:background="@drawable/shape"
+                android:alpha="0.75"
+                android:elevation="15dp" />
+        </LinearLayout>
+    </GridLayout>
+</RelativeLayout>

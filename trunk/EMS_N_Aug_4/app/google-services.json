@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "827363208544",
+    "firebase_url": "https://bebo-ae650.firebaseio.com",
+    "project_id": "bebo-ae650",
+    "storage_bucket": "bebo-ae650.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827363208544:android:ff1eb3621ca50a18",
+        "android_client_info": {
+          "package_name": "com.example.baibhav.helper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827363208544-tslh1bfdsj0qm2m5865tobmhuavdq5o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6nHvx3bb4DLsHD_Gt7wfY4aKkEkDDzTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827363208544:android:a9394a7ce2462e2b",
+        "android_client_info": {
+          "package_name": "com.project.tripti.ems"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827363208544-tslh1bfdsj0qm2m5865tobmhuavdq5o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6nHvx3bb4DLsHD_Gt7wfY4aKkEkDDzTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
